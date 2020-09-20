@@ -1,0 +1,29 @@
+.transactionHistory {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  border-collapse: collapse;
+  border: lightgray solid 1px;
+}
+th,
+td {
+  border: lightgray solid 1px;
+  padding: 10px;
+}
+td {
+  color: gray;
+  text-align: center;
+}
+
+.thead {
+  background-color: rgb(29, 163, 197);
+  color: white;
+  text-transform: uppercase;
+  border: lightgray solid 1px;
+}
+
+.row:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.type {
+  text-transform: capitalize;
+}
